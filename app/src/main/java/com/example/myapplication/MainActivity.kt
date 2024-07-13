@@ -10,7 +10,6 @@ import com.example.myapplication.screens.QuoteList
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         DataManager.loadDataFromAsset(this)
         setContent {
             App()
